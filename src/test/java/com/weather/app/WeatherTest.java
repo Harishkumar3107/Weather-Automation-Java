@@ -10,7 +10,7 @@ public class WeatherTest {
     @Test
     public void validateWeather() {
         // REPLACE THE KEY BELOW with your real 32-character key from OpenWeatherMap
-        String apiKey = "d0a8a6d2cee73a739527f12905e81d09"; 
+        String apiKey = "YOUR_API_KEY_HERE"; 
         String city = "Karimnagar";
 
         System.out.println("--- Starting Weather API Test for " + city + " ---");
