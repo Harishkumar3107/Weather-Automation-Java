@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.weather.app.WeatherTest" time="3.219" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.weather.app.WeatherTest" time="4.362" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/data/data/com.termux/files/usr/lib/jvm/java-21-openjdk/lib"/>
-    <property name="sun.java.command" value="/data/data/com.termux/files/home/WeatherProject/target/surefire/surefirebooter-20260429115720521_3.jar /data/data/com.termux/files/home/WeatherProject/target/surefire 2026-04-29T11-57-20_365-jvmRun1 surefire-20260429115720521_1tmp surefire_0-20260429115720521_2tmp"/>
+    <property name="sun.java.command" value="/data/data/com.termux/files/home/WeatherProject/target/surefire/surefirebooter-20260429123257815_3.jar /data/data/com.termux/files/home/WeatherProject/target/surefire 2026-04-29T12-32-57_628-jvmRun1 surefire-20260429123257815_1tmp surefire_0-20260429123257815_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="WeatherTest"/>
     <property name="surefire.test.class.path" value="/data/data/com.termux/files/home/WeatherProject/target/test-classes:/data/data/com.termux/files/home/WeatherProject/target/classes:/data/data/com.termux/files/home/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/data/data/com.termux/files/home/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/data/data/com.termux/files/home/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/data/data/com.termux/files/home/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/data/data/com.termux/files/home/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/data/data/com.termux/files/home/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/data/data/com.termux/files/home/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/data/data/com.termux/files/home/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/data/data/com.termux/files/home/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/data/data/com.termux/files/home/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/data/data/com.termux/files/home/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/data/data/com.termux/files/home/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/data/data/com.termux/files/home/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/data/data/com.termux/files/home/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/data/data/com.termux/files/home/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/data/data/com.termux/files/home/.m2/repository/org/testng/testng/7.7.0/testng-7.7.0.jar:/data/data/com.termux/files/home/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/data/data/com.termux/files/home/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/data/data/com.termux/files/home/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/data/data/com.termux/files/home/WeatherProject/target/surefire/surefirebooter-20260429115720521_3.jar"/>
+    <property name="surefire.real.class.path" value="/data/data/com.termux/files/home/WeatherProject/target/surefire/surefirebooter-20260429123257815_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11"/>
     <property name="user.name" value="u0_a569"/>
@@ -54,11 +54,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="validateWeather" classname="com.weather.app.WeatherTest" time="2.656">
+  <testcase name="validateWeather" classname="com.weather.app.WeatherTest" time="3.611">
     <system-out><![CDATA[--- Starting Weather API Test for Karimnagar ---
-Server Response Body: {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
-Status Code: 401
-TEST FAILED: Server returned an error. Check the Response Body above.
+Server Response Body: {"coord":{"lon":79.15,"lat":18.4333},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":37.12,"feels_like":35.73,"temp_min":37.12,"temp_max":37.12,"pressure":1002,"humidity":21,"sea_level":1002,"grnd_level":968},"visibility":10000,"wind":{"speed":1.65,"deg":194,"gust":1.63},"clouds":{"all":0},"dt":1777465981,"sys":{"country":"IN","sunrise":1777421847,"sunset":1777467835},"timezone":19800,"id":1267755,"name":"Karīmnagar","cod":200}
+Status Code: 200
+Current Temperature in Karimnagar is: 37.12°C
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
